@@ -1,0 +1,177 @@
+@media (max-width: 992px) {
+    .quetionArea {
+        width: 80%;
+    }
+
+    .question {
+        font-size: 1.75rem;
+        margin: auto;
+        margin-bottom: 1.5rem;
+    }
+
+    .questionTop {
+        width: 70%;
+        margin: 20px auto;
+        font-size: 1.2rem;
+    }
+
+    .questionBottom {
+        padding-top: 2rem;
+    }
+
+    .options {
+        display: block;
+    }
+
+    .rowOpt {
+        display: block;
+    }
+
+    .option {
+        font-size: 1.25rem;
+        border: 5px solid black;
+        height: 3rem;
+        width: 20rem;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        border-radius: 20px;
+        background-color: #007c7c;
+        color: white;
+        cursor: pointer;
+        margin: 15px auto;
+    }
+
+    .offcanvas {
+        width: 100% !important;
+    }
+
+    .status {
+        font-size: 8rem;
+    }
+
+    .statusTitle {
+        font-size: 2rem;
+    }
+
+    .questionTop {
+        width: 80%;
+        margin: 20px auto;
+        font-size: 1.4rem;
+    }
+
+    #home-area {
+        width: 90%;
+    }
+
+    #heroImg {
+        width: 30rem;
+    }
+
+    .home-content {
+        font-size: 1.25rem;
+    }
+
+    .pauseScreen {
+        font-size: 8rem;
+    }
+    .quizArea{
+        padding-top: 34px;
+    }
+}
+
+@media (max-width: 500px) {
+    #stemLogo {
+        font-size: 1.5rem;
+    }
+
+    .brand-text {
+        font-size: 1.5rem;
+    }
+
+    .githubIco>a>i {
+        font-size: 1.5rem;
+    }
+    .quizArea{
+        padding-top: 24px;
+    }
+}
+
+@media (max-width: 400px) {
+    .status {
+        font-size: 7rem;
+    }
+
+    .statusTitle {
+        font-size: 2rem;
+    }
+
+    .resultBottom {
+        margin-top: 30px;
+    }
+
+    #home-area {
+        width: 90%;
+    }
+
+    #heroImg {
+        width: 18rem;
+    }
+
+    .home-content {
+        font-size: 1.25rem;
+    }
+
+    .quesTimer>div {
+        font-size: 1rem;
+    }
+
+    .quetionArea {
+        width: 80%;
+    }
+
+    .question {
+        font-size: 1.5rem;
+        margin: auto;
+        margin-bottom: 1.5rem;
+    }
+
+    .questionTop {
+        width: 90%;
+        margin: 20px auto;
+        font-size: 1rem;
+    }
+
+    .questionBottom {
+        padding-top: 2rem;
+    }
+
+    .quesTimer {
+        size: 60;
+    }
+
+    .options {
+        display: block;
+    }
+
+    .rowOpt {
+        display: block;
+    }
+
+    .option {
+        font-size: 1.25rem;
+        border: 5px solid black;
+        height: 3rem;
+        width: 15rem;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        border-radius: 20px;
+        background-color: #007c7c;
+        color: white;
+        cursor: pointer;
+        margin: 15px auto;
+    }
+}

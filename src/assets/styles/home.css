@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+.home-section {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  width: 100%;
+}
+
+.home-content {
+  font-size: 1.5rem;
+
+  text-align: center;
+  font-family: "Raleway", sans-serif !important;
+}
+
+.quizBtn {
+  font-size: 3.5rem;
+  fill: rgb(239, 105, 2);
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+#stem-caption {
+  text-align: center;
+}
+
+#home-area {
+  width: 60%;
+  text-align: center;
+}
+.quizBtn:hover {
+  fill: rgb(198, 86, 0);
+}
