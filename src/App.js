@@ -1,4 +1,3 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import Nav from "./components/Nav";
 import Home from "./pages/Home";
@@ -12,11 +11,9 @@ function App() {
   const ToggleQuiz = () => { if (!showQuiz) {setShowQuiz(true);} else setShowQuiz(false);};
 
   return (
-    <BrowserRouter>
-      <Nav />
-      <Routes>
-        <Route path="/" exact element={
+   
             <>
+            <Nav/>
               {!showQuiz ? (
                 <>
                   <Home ToggleQuizModal={ToggleQuizModal} />
@@ -24,10 +21,8 @@ function App() {
                 </>
               ) :  <QuestionPage toggleQuiz={ToggleQuiz} />}
             </>
-          }
-        />
-      </Routes>
-    </BrowserRouter>
+          
+      
   );
 }
 

@@ -1,3 +1,14 @@
+# Description
+
+It Is A Stem Quiz Web App Which Was Built Using ReactJS. This Quiz Has 10 questions Based On STEM and you have 30seconds to solve each question, the questions are in mcq format. This App Is Responsive For Both Dektops And Mobiles.
+You Can Check The Project Live At: https://stem-quiz-master.web.app/
+
+Source Code (Github Repo): https://github.com/Kdaksh/stem-quiz-app
+
+Github: https://github.com/Kdaksh/
+
+Thanks
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

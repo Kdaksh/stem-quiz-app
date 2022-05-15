@@ -13,7 +13,7 @@ const Nav = (props) => {
                 <div className="brand-text"><span id="s">Quiz</span><span id="t">master</span></div>
               </Navbar.Brand>
             
-            <div className="githubIco"><a href="https://github.com/kdaksh" target="_blank"> <i id="githubIcon"><Github /></i> </a></div>
+            <div className="githubIco"><a href="https://github.com/Kdaksh/stem-quiz-app" target="_blank"> <i id="githubIcon"><Github /></i> </a></div>
           </div>
         </Navbar>
       </>
